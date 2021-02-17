@@ -5,4 +5,25 @@ h1{
     width: 80%;
     margin: auto;
     box-shadow: 2px 2px 20px black;
+    text-align: center;
+    padding: 20px;
+    font-family: 'arial';
+    border-radius: 0px 0px 10px 10px;
+}
+
+.container2{
+    width: 70%;
+    margin: auto;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    font-family: 'calibri';
+    
+}
+hr{
+    box-shadow: 1px 1px 5px;
+    color: cadetblue;
+    
 }

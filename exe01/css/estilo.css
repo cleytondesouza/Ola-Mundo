@@ -1,3 +1,8 @@
 h1{
     font-family: 'calibri';
 }
+.container{
+    width: 80%;
+    margin: auto;
+    box-shadow: 2px 2px 20px black;
+}

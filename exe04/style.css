@@ -1,0 +1,13 @@
+body{
+    font-family: calibri;
+    background-image: url('fundo.jpg');
+}
+.container{
+    width: 80%;
+    background-color: rgb(224, 220, 220);
+    margin: -10px auto 20px auto;
+    padding: 20px;
+    box-shadow: 1px 1px 10px black;
+    opacity: 0.8;
+    border-radius: 0px 0px 10px 10px;
+}

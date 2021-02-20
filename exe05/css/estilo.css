@@ -1,0 +1,11 @@
+.imagem{
+    box-shadow: 1px 1px 10px black;
+    width: 768px;
+    border-radius: 5px;
+
+}
+body{
+    background-image: url('../img/fundo.jpg');
+    
+    
+}

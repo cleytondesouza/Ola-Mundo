@@ -1,0 +1,13 @@
+body{
+    font-family: 'calibri';
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+div{
+    width: 80%;
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 20px;
+}

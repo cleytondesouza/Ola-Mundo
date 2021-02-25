@@ -1,0 +1,10 @@
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    object-position: center;
+    padding: 20px;
+    background-color: antiquewhite;
+    box-shadow: black 1px 1px 10px;
+    font-family: 'calibri';
+}

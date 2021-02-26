@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colocando Audio no Seu Site</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Colocando Audio no Site</h1>
+
+    <h2>Reproduzindo audios</h2>
+    <hr>
+    <p>Opção 01</p>
+
+    <audio src="midia/musica.mp3" autoplay controls></audio>
+    <!--mp3, wav, ogg -->
+    <p>Opção 02</p>
+    <audio autoplay controls loop>
+        <source src="midia/musica.mp3" type="audio/mpeg">
+        <source src="midia/musica.ogg" type="audio/ogg">
+        <source src="midia/musica.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir audios</p>
+        <p><a href="midia/musica.mp3">Clique aqui</a> para fazer download do audio</p>
+    </audio>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com o DOM</title>
+    <style>
+        body {
+            background-color: rgb(7, 29, 63);
+            color: white;
+            font: normal 18pt calibri;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Teste de Seleção de tags</h1>
+    <p>1 - tag primeira dos elementos</p>
+    <p>2 - Segunda tag dos elementos</p>
+    <div id='msg'>
+        Clique em mim
+
+    </div>
+
+    <p style="color: black; background-color: antiquewhite;">Escreva o que está no paragrafo</p>
+  
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[2] //Cria variável e atribui valores a ela
+        window.document.write(p1.innerText) //Escreve o que está no parágrafo recebido por p1
+
+        corpo.style.background = 'black' //Muda o fundo do documento para a cor digitada
+        p1.style.color = 'red' //muda o paragrado selecionado para a cor desejada
+
+        window.document.write('<br>')//Quebra de linha do HTML dentro do JS
+        window.document.write(p1.innerHTML) //Escreve o que está no paraágrafo
+        window.document.write('<br><hr><br>')
+        window.document.write('Olá Cleyton')
+
+    </script>
+
+
+</body>
+
+</html>

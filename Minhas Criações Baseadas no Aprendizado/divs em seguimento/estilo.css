@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: -30px auto;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px black;
+}
+p{
+    
+    padding: 5px 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+.nome{
+    color: bisque;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.container2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 183, 255);
+    display: inline-flex;
+    margin: 5px;
+    border-radius: 4px;
+
+    
+   
+    
+}

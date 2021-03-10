@@ -7,15 +7,22 @@
     <title>Somando Números</title>
     <style>
         body{
-            font: normal 20pt arial;
+            font: normal 20pt 'calibri';
             color: blue;
+            width: 80%;
+            background-color: rgb(173, 210, 211);
+            margin: auto;
+            box-shadow: 1px 1px 10px black;
+            padding: 20px;
+            text-align: center;
         }
         input{
             font: normal 18pt 'calibri';
         }
+        
         div#res{
             margin: 20px;
-            background-color: burlywood;
+            background-color: rgb(255, 255, 255);
             padding: 10px;
             width: auto;
             text-align: center;
@@ -25,9 +32,10 @@
 </head>
 <body>
     <h1>Somando valores</h1>
-    <input type="number" name="txtn1" id="txtn1">
-    <input type="number" name="txtn2" id="txtn2">
-    <input type="button" value="Somar" onclick="somar()">
+    <hr>
+    <input type="number" name="txtn1" id="txtn1"><br><br>
+    <input type="number" name="txtn2" id="txtn2"><br><br>
+    <input type="button" value="Somar" onclick="somar()"><br>
     
     <div id="res">Resultado...</div>
     <script>

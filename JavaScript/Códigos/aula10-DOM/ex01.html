@@ -29,9 +29,22 @@
         <img src="img/events.png" alt="Eventos do Mouse">
     </figure>
     <p>Tudo sobre JavaScript <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript</a></p>
-    <div id="area">
+
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
         Interaja...
     </div>
+    <script>
+        var a = window.document.getElementById('area')
+        function clicar(){
+            a.innerText = 'Clicou'
+        }
+        function entrar(){
+            a.innerText = 'Entrou'
+        }
+        function sair(){
+            a.innerText = 'Saiu'
+        }
+    </script>
 
 </body>
 

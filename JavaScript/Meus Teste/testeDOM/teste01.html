@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste DOM</title>
+    
+    <style>
+        body{
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #cor{
+            background-color: pink;
+            width: 500px;
+            height: 500px;
+            color: rgb(255, 255, 255);
+            font-size: 50pt;
+            padding: 10px;
+            margin: auto;
+            box-shadow: brown 1px 1px 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Teste DOM</h1>
+    <hr>
+    <div id="cor">
+        <p>Interatividade...</p>
+
+    </div>
+    <script>
+        var mudar = window.document.getElementById('cor')
+        mudar.addEventListener('click', clicar)
+        mudar.addEventListener('mouseenter', entrar)
+        mudar.addEventListener('mouseout', sair)
+
+        function clicar(){
+            mudar.innerText = 'Cliquei'
+            mudar.style.background = 'red'
+        }
+        function entrar(){
+            mudar.innerText = 'Entrei'
+            mudar.style.background = 'green'
+        }
+        function sair(){
+            mudar.innerText = 'Saí'
+            mudar.style.background = 'blue'
+        }
+
+    </script>
+    
+</body>
+</html>

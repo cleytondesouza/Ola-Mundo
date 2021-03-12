@@ -1,0 +1,1 @@
+window.alert('Bem vindo a nossa plataforma')

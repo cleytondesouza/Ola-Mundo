@@ -1,7 +1,7 @@
 body{
     background-color: rgb(106, 106, 212);
     font-size: 15pt;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Arial';
 }
 header{
     color: white;
@@ -10,7 +10,7 @@ header{
 }
 section{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 25px;
     padding: 15px;
     width: 500px;
     margin: auto;
@@ -23,8 +23,20 @@ footer{
     color: white;
     text-align: center;
     font-style: italic;
+    font-size: 15px;
+   
 }
 div{
     text-align: center;
     padding: 10px;
+}
+img{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.274);
+    border-radius: 250px;
+    border: 10px solid rgb(255, 255, 255);
+}
+h1{
+    font-family: 'calibri';
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.274);
+
 }

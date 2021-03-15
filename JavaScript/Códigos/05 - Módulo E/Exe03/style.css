@@ -1,0 +1,27 @@
+body{
+    font-family: 'calibri';
+    background-color: rgb(18, 18, 155);
+    text-align: center;
+    color: white;
+}
+.container{
+    max-width: 600px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.568);
+    margin: auto;
+    margin-top: 50px;
+    color: rgb(14, 14, 107);
+    font-size: 17pt;
+    text-align: left;
+}
+footer{
+    font-style: italic;
+}
+select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 10px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.432);
+}

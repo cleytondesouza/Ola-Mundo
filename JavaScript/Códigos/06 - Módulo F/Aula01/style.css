@@ -1,0 +1,14 @@
+body{
+    font-family: 'calibri';
+    background-color: rgb(12, 12, 182);
+}
+.container{
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+    font-size: 15pt;
+    background-color: white;
+
+}

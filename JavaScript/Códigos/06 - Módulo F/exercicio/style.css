@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(8, 8, 92);
+    font: normal 15pt 'arial';
+}
+header{
+    text-align: center;
+    color: white;
+}
+.container{
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    padding: 15px;
+    max-width: 600px;
+    color: black;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font: italic 15px 'calibri';
+}
+#flista{
+    width: 150px;
+}

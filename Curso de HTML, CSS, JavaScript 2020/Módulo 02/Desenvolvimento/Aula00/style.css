@@ -1,0 +1,42 @@
+body{
+    font: normal 18pt 'calibri';
+    background-color: rgb(11, 11, 73);
+    color: white;
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px 25px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+footer{
+    font-style: italic;
+    font-size: 15pt;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.title{
+    font-size: 30px;
+    background-color: rgb(11, 11, 73);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 12px;
+    color: white;
+}
+.menu2{
+    color: brown;
+}
+.menu1{
+    color: black;
+}
+.centralizado{
+    background-color: beige;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}

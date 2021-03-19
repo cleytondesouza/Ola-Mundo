@@ -1,0 +1,47 @@
+body{
+    font-family: 'calibri';
+    background-color: rgb(70, 122, 218);
+}
+.title{
+    color: white;
+    background-color: rgb(10, 10, 95);
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 600px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.315);
+    
+}
+.container{
+    background-color: white;
+    margin: 10px auto;
+    max-width: 600px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color:  rgb(10, 10, 95);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.315);
+}
+.h3{
+    font-style: italic;
+}
+.botao_azul{
+    color: white;
+    background-color: rgb(10, 10, 95);
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 2px solid rgb(10, 10, 95);
+    transition: 0.5s;
+}
+.botao_azul:hover{
+    color: rgb(10, 10, 95);
+    background-color: white;
+    border: 2px solid rgb(10, 10, 95);
+    transition: 0.5s;
+}
+.rodape{
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}

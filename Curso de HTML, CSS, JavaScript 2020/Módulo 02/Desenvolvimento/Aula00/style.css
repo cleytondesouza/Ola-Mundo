@@ -27,6 +27,7 @@ footer{
     text-align: center;
     padding: 5px 12px;
     color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.384);
 }
 .menu2{
     color: brown;
@@ -45,5 +46,39 @@ footer{
     border-radius: 10px;
     margin: auto;
     max-width: 600px;
+    padding: 20px 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.452);
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.inputin{
+    border-radius: 5px;
+    font-size: 12pt;
+    border: none;
+    margin: auto;
+    margin-bottom: 10px;
     padding: 10px;
+    width: 500px;
+    text-align: center;
+
+    
+}
+.botao{
+    background-color: black;
+    color: white;
+    width: 150px;
+    font-size: 15pt;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+}
+.botao:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(20, 6, 68);
+    width: 150px;
+    font-size: 15pt;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
 }

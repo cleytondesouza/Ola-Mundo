@@ -40,3 +40,10 @@ footer{
     border-radius: 10px;
     font-size: 20px;
 }
+.formulario{
+    background-color: blue;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 600px;
+    padding: 10px;
+}

@@ -1,0 +1,84 @@
+body{
+    font: normal 18pt 'calibri';
+    background-color: rgb(21, 46, 5);
+    color: white;
+    text-align: center;
+}
+.container{
+    max-width: 1000px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px 25px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+footer{
+    font-style: italic;
+    font-size: 15pt;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.title{
+    font-size: 30px;
+    background-color:  rgb(21, 46, 5);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 12px;
+    color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.384);
+}
+.menu2{
+    color: brown;
+}
+.menu1{
+    color: black;
+}
+.centralizado{
+    background-color: beige;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.formulario{
+    background-color: rgb(23, 112, 5);
+    border-radius: 10px;
+    margin: auto;
+    max-width: 600px;
+    padding: 20px 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.452);
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.inputin{
+    border-radius: 5px;
+    font-size: 12pt;
+    border: none;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+
+    
+}
+.botao{
+    background-color: black;
+    color: white;
+    width: 150px;
+    font-size: 15pt;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+}
+.botao:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(21, 46, 5);
+    width: 150px;
+    font-size: 15pt;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+}

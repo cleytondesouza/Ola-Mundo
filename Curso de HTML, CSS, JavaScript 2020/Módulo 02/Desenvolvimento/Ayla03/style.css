@@ -3,4 +3,18 @@ body{
     font-size: 15pt;
     background-color: cornflowerblue;
     color: darkblue;
+    text-align: center;
+    
+}
+.container{
+    background-color: white;
+    color: darkblue;
+    margin: auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.452);
+    padding: 10px;
+    margin-bottom: 25px;
+    text-align: left;
+    padding-left: 25px;
 }

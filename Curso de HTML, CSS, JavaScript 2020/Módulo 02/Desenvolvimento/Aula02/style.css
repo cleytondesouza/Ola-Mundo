@@ -28,13 +28,14 @@ body:hover{
 }
 .aga2{
     background-color: rgb(197, 197, 230);
-    transition: 0.5s;
+    text-align: center;
     border-radius: 10px;
-    padding: 2px 1px;
+    padding: 2px 15px;
     margin: 10px auto;
+    transition: 0.5s;
 }
 .aga2:hover{
-    transition: 0.5s;
     background-color: rgb(4, 4, 31);
     color: white;
+    transition: 0.5s;
 }

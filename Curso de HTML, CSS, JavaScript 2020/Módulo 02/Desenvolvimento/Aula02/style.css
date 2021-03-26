@@ -19,5 +19,22 @@ body:hover{
     padding: 5px 25px;
     text-align: left;
     background-color: white;
+    transition: 0.5s;
 
+}
+.container:hover{
+    background-color: rgb(168, 169, 202);
+    transition: 0.5s;
+}
+.aga2{
+    background-color: rgb(197, 197, 230);
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 2px 1px;
+    margin: 10px auto;
+}
+.aga2:hover{
+    transition: 0.5s;
+    background-color: rgb(4, 4, 31);
+    color: white;
 }

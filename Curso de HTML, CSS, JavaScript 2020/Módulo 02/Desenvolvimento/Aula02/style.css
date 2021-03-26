@@ -33,9 +33,10 @@ body:hover{
     padding: 2px 15px;
     margin: 10px auto;
     transition: 0.5s;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
 }
 .aga2:hover{
     background-color: rgb(4, 4, 31);
     color: white;
-    transition: 0.5s;
+    transition: 1s;
 }

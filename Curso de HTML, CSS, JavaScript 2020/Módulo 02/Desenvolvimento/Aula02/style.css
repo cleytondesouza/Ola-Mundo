@@ -1,0 +1,8 @@
+body{
+    background-color: cornflowerblue;
+    transition: 0.5s;
+}
+body:hover{
+    background-color: crimson;
+    transition: 0.5s;
+}

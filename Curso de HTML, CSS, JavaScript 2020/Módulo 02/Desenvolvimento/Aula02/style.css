@@ -1,8 +1,23 @@
 body{
-    background-color: cornflowerblue;
+    font-size: 15pt;
+    font-family: 'Calibri';
+    background-color: rgb(31, 75, 158);
     transition: 0.5s;
+    text-align: center;
+    color: white;
 }
 body:hover{
-    background-color: crimson;
+    background-color: rgb(5, 13, 83);
     transition: 0.5s;
+}
+.container{
+    max-width: 600px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.452);
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+
 }

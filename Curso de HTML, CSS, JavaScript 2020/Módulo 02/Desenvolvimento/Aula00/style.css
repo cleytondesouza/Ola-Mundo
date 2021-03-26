@@ -33,6 +33,11 @@ footer{
     padding: 5px 12px;
     color: white;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.384);
+    transition: 0.5s;
+}
+.title:hover{
+    background-color: brown;
+    transition: 0.5s;
 }
 .menu2{
     color: brown;
